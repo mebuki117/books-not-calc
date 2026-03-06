@@ -139,7 +139,7 @@ def update_display():
 
 
 root = tk.Tk()
-root.title('books not calc')
+root.title(f'books not calc v{version}')
 root.resizable(False, False)
 
 display = tk.StringVar()
